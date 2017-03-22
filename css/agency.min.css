@@ -181,7 +181,7 @@ a.active, a:active, a:focus, a:hover {
         border-radius: 3px
     }
     .navbar-custom.affix {
-        background-color: #222;
+        background-color: rgba(0, 0, 0, 0.85);
         padding: 10px 0
     }
     .navbar-custom.affix .navbar-brand {
