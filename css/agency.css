@@ -144,7 +144,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .btn-xl .badge {
   color: #d4542d;
-  background-color: white;
+  background-color: white; 
 }
 .navbar-custom {
   background-color: #222222;
