@@ -110,14 +110,14 @@ a.active, a:active, a:focus, a:hover {
 }
 
 .navbar-custom .navbar-brand {
-    color: #d4542d;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 22px;
     font-weight: 700;
 }
 
 .navbar-custom .navbar-brand.active, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:hover {
-    color: #f08261
+    color: white;
 }
 
 .navbar-custom .nav li a, .navbar-custom .navbar-toggle {
