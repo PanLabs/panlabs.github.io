@@ -771,3 +771,6 @@ img::selection {
 img::-moz-selection {
     background: 0 0
 }
+#about h2 {
+  padding: 0px 0px 50px 0px;
+}
