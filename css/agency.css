@@ -34,7 +34,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #f08261;
+  color: #999999;
 }
 h1,
 h2,
@@ -647,7 +647,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #d4542d;
+  background-color: #999999;
 }
 .btn:focus,
 .btn:active,
@@ -731,11 +731,11 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
   text-shadow: none;
-  background: #d4542d;
+  background: #c7c7c7;
 }
 ::selection {
   text-shadow: none;
-  background: #d4542d;
+  background: #c7c7c7;
 }
 img::selection {
   background: transparent;

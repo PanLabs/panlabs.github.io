@@ -42,7 +42,7 @@ a, a.active, a:active, a:focus, a:hover {
 }
 
 a.active, a:active, a:focus, a:hover {
-    color: #f08261
+    color: #999999
 }
 
 .img-centered {
@@ -665,7 +665,7 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-    background-color: #d4542d
+    background-color: #999999
 }
 
 .btn.active, .btn:active, .btn:active:focus, .btn:focus {
@@ -756,12 +756,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 ::-moz-selection {
     text-shadow: none;
-    background: #d4542d
+    background: #c7c7c7
 }
 
 ::selection {
     text-shadow: none;
-    background: #d4542d
+    background: #c7c7c7
 }
 
 img::selection {
