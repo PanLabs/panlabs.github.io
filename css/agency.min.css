@@ -190,7 +190,7 @@ a.active, a:active, a:focus, a:hover {
 }
 
 header {
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/hero_image.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -565,7 +565,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(../img/Contact_Section_Background.png);
     background-position: center;
     background-repeat: no-repeat
 }
