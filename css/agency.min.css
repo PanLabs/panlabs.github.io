@@ -191,7 +191,7 @@ a.active, a:active, a:focus, a:hover {
 
 header {
     background-image: url(../img/hero_image.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     background-attachment: scroll;
     background-position: center center;
     -webkit-background-size: cover;
