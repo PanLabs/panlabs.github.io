@@ -170,6 +170,7 @@ a.active, a:active, a:focus, a:hover {
         transition: all .3s;
         border: none
     }
+
     .navbar-custom .navbar-brand {
         font-size: 22px;
         font-weight: 700;
@@ -190,8 +191,8 @@ a.active, a:active, a:focus, a:hover {
 }
 
 header {
-    background-image: url(../img/hero_image.png);
-    background-repeat: no-repeat; 
+    background-image: url(../img/hero_image_2.png);
+    background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     -webkit-background-size: cover;
@@ -504,6 +505,10 @@ footer span.copyright, footer ul.quicklinks {
     .timeline>li .timeline-panel, .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px
     }
+    #mobileText {
+      display:none;
+    }
+
     .timeline>li {
         min-height: 150px
     }
@@ -519,10 +524,23 @@ footer span.copyright, footer ul.quicklinks {
     }
 }
 
+@media screen and (max-width: 992px) {
+    #desktopText {
+        display: none;
+    }
+}
+
+
+}
+
+
 @media (min-width:1200px) {
     .timeline>li {
         min-height: 170px
     }
+
+
+
     .timeline>li .timeline-panel {
         padding: 0 20px 20px 100px
     }
