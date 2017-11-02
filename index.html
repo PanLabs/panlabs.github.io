@@ -30,6 +30,12 @@
       analytics.page()
       analytics.identify()
       }}();
+
+      var form = document.getElementById('contactForm');
+
+  analytics.trackForm(form, 'Form submitted', {
+    company: 'Pan Labs'
+      });
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -616,13 +622,7 @@
         console.log(window.analytics.user())
     });
     </script>
-<script>
-    var form = document.getElementById('contactForm');
 
-analytics.trackForm(form, 'Form submitted', {
-  company: 'Pan Labs'
-});
-</script>
 </body>
 
 </html>
