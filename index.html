@@ -616,7 +616,13 @@
         console.log(window.analytics.user())
     });
     </script>
+<script>
+    var form = document.getElementById('contactForm');
 
+analytics.trackForm(form, 'Form submitted', {
+  company: 'Pan Labs'
+});
+</script>
 </body>
 
 </html>
